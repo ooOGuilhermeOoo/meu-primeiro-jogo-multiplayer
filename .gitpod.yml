@@ -3,4 +3,4 @@ ports:
     onOpen: open-preview
 tasks:
   - before: if [[ -z "$experiment" ]]; then cd playground/guilherme; else cd playground/$experiment; fi
-    command: nvm install 16.9.1 && npm install && npm start
+    command: nvm install 16.9.1 && npm install && npm start && y
